@@ -1,5 +1,5 @@
 # EV-Battery-Cell-Assembly-Defect-Prediction
-This project simulates the Lamination process in EV battery cell assembly. This project demonstrates how machine learning can support process engineers by predicting defect likelihood and highlighting the most critical process parameters.Achieved **74%accuracy**, with **96% recall on OK cells** and identified opportunities to improve **defect detection recall** using class balancing (SMOTE, weighted loss).
+This project simulates the Lamination process in EV battery cell assembly. This project demonstrates how machine learning can support process engineers by predicting defect likelihood and highlighting the most critical process parameters.Achieved **73%accuracy**, with **71% recall on OK cells** and **76% recall on defective cells**. Identified opportunities to improve **defect detection recall** using class balancing (SMOTE, weighted loss).
 
 ## Features Simulated
 - **Lamination Temperature (°C)**  
@@ -27,8 +27,8 @@ Defect probability was modeled using engineering logic — e.g., low sealing tem
 ---
 
 ## Key Results
-- Achieved **74% prediction accuracy** on test data.  
-- **Feature Importance Analysis** confirmed sealing pressures and temperatures are critical defect drivers.  
+- Achieved **73% prediction accuracy** on test data.  
+- **Feature Importance Analysis** confirmed lamination temperature is the critical defect driver **(~30%)**
 
 ---
 
