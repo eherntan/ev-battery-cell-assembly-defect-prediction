@@ -18,8 +18,7 @@ Defect probability was modeled using engineering logic — e.g., low sealing tem
 ## Machine Learning Approach
 - Generated **synthetic dataset** with domain-informed defect logic.  
 - Built and trained classification models:
-  - **Random Forest Classifier** (primary model)  
-  - Logistic Regression    
+  - **Random Forest Classifier**  
 - Evaluated models using:
   - **Classification Report** (precision, recall, F1-score)   
   - **Feature Importance Analysis**  
